@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   dio: ^5.9.0
   just_audio: ^0.9.46
+  cached_network_image: ^3.4.1
+  flutter_launcher_icons: ^0.14.4
 
 dev_dependencies:
   flutter_test:
@@ -49,6 +51,10 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
 
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
