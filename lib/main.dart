@@ -33,7 +33,7 @@ class _SearchPageState extends State<SearchPage> {
   bool _loading = false;
 
   final String _apiBaseUrl =
-      "https://exhibitions-looksmart-pad-wrapped.trycloudflare.com";
+      "https://exhibitions-looksmart-pad-wrapped.trycloudflare.com"; // Direccion dinamica
 
   Future<void> _search(String query) async {
     if (query.isEmpty) return;
@@ -153,7 +153,7 @@ class _PlayerPageState extends State<PlayerPage> {
   final Dio _dio = Dio();
   final AudioPlayer _player = AudioPlayer();
   final String _apiBaseUrl =
-      "https://exhibitions-looksmart-pad-wrapped.trycloudflare.com";
+      "https://exhibitions-looksmart-pad-wrapped.trycloudflare.com"; // Direccion dinamica
 
   bool _isFetchingInitialData = true;
 
